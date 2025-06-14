@@ -1,7 +1,7 @@
 import type { MouseEvent } from 'react';
 
 export interface ImageItem {
-  id: number;
+  id: string;
   alt_description: string | null;
   urls: {
     small: string;
@@ -39,5 +39,5 @@ export interface LoadMoreBtnProps {
 export interface ImageModalProps {
   isOpen: boolean;
   onClose: () => void;
-  imageData: ImageItem | null;
+  imageData: ModalImageType;
 }

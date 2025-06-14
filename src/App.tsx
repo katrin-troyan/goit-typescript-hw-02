@@ -71,6 +71,7 @@ export default function App() {
           },
         },
       );
+
       setArticles(response.data.results);
       setTotalPages(response.data.total_pages);
     } catch (error) {
