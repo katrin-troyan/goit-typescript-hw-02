@@ -1,0 +1,47 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal {
+  background: #d0cdac;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 90vh;
+  margin: 0 auto;
+  border-radius: 8px;
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  max-width: 70vh;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  font-size: 18px;
+  line-height: 2;
+  color: 2e2f42;
+  padding: 0 20px;
+}

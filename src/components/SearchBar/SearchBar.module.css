@@ -1,0 +1,44 @@
+.formSearchBar {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.inputSearchBar {
+  width: 450px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #c9e9c8;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 0 16px;
+}
+.inputSearchBar:focus,
+.inputSearchBar:hover {
+  outline: none;
+  border: 1px solid #373a1f;
+  box-shadow: 0px 0px 5px rgba(2, 92, 17, 0.5);
+}
+.buttonSearchBar {
+  border-radius: 8px;
+  border: 1px solid #373a1f;
+  width: 100px;
+  height: 40px;
+  background: #373a1f;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+.buttonSearchBar:focus,
+.buttonSearchBar:hover {
+  border: 1px solid #026d14;
+  background: #026d14;
+}
